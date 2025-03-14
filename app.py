@@ -3,6 +3,7 @@ Fetch the latest 5 posts from the r/learnpython.
 """
 import time
 import threading
+import os
 
 from flask import Flask, jsonify
 from flask_cors import CORS
